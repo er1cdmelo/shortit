@@ -1,0 +1,40 @@
+#shorted
+    max-width: 90%
+    display: flex
+    flex-direction: column
+    position: relative
+    align-items: center
+    
+    #link
+        display: flex
+        align-items: center
+        gap: 1.5em
+
+        h3
+            font-size: 1.4em
+            border: 1px solid #7a7a7a
+            background-color: #fff
+            padding: .5em 1.5em
+            width: 330px
+            border-radius: 5px
+            max-width: 90%
+
+            @media (max-width: 440px) 
+                width: 250px
+                height: 100%
+                font-size: 1.3em
+
+        .copy
+            background-color: #3D5A80
+            padding: .7em
+            border-radius: 5px
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 1.3em
+            color: #fff
+            cursor: pointer
+            transition: .3s
+
+            &:hover
+                background-color: #98C1D9
